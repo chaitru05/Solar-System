@@ -1,4 +1,4 @@
-# Three.js Frontend Assignment
+# Three.js Frontend deveplo
 
 A sophisticated 3D animation control center built with React, TypeScript, and Three.js. This interactive application demonstrates real-time 3D graphics with comprehensive animation controls, multiple animation types, and a polished user interface.
 
@@ -8,11 +8,11 @@ A sophisticated 3D animation control center built with React, TypeScript, and Th
 - **Real-time 3D Animations**: Smooth 60fps animations powered by Three.js
 - **Speed Control System**: Dynamic speed adjustment from 0.1x to 3x
 - **Multiple Animation Types**:
-  - Rotation: Multi-axis rotation with torus knot geometry
-  - Scaling: Sine wave scaling with icosahedron shape
-  - Morphing: Vertex displacement on sphere geometry
-  - Particles: Configurable particle system with wave motion
-
+Standard orbit
+pulsing planets
+asteriod belt
+** **
+planets information pop up when click on the planet .
 ### Interactive Controls
 - **Playback Controls**: Play, pause, and reset functionality
 - **Visual Customization**: Color picker with presets, wireframe mode
@@ -41,9 +41,8 @@ src/
 ├── components/
 │   ├── ThreeScene.tsx          # Main 3D scene component
 │   ├── ControlPanel.tsx        # Animation controls interface
-│   ├── AnimationLibrary.tsx    # Animation type selector
-│   ├── Header.tsx              # Navigation header
-│   └── Footer.tsx              # Footer component
+|   |   Planets_controls.tsx    #planets information
+|   |   planetInfoModal.tsx
 ├── App.tsx                     # Main application component
 ├── main.tsx                    # Application entry point
 └── index.css                   # Global styles and Tailwind
@@ -161,7 +160,7 @@ npm run build
 
 ## 📄 License
 
-This project is built for educational purposes as part of a frontend development assignment.
+This project is built for educational purpose.
 
 ## 🤝 Contributing
 
